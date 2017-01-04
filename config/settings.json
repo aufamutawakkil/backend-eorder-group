@@ -1,0 +1,31 @@
+{
+    "db": {
+        "driver": "mysql",
+        "host": "localhost",
+        "username": "aufamutawakkil",
+        "password": "",
+        "dbname": "eorder"
+    },
+    "repo": {
+        "path": "repo"
+    },
+    "app": {
+        "dir": "app",
+        "dateFormat": "d M Y",
+        "timeFormat": "H:i",
+        "dateTimeFormat": "d M Y - H:i",
+        "mode": "dev",
+        "debug": "ON",
+        "host": "https:\/\/eorder-aufamutawakkil.c9users.io",
+        "url": "http:\/\/eorder-aufamutawakkil.c9users.io:80"
+    },
+    "email": {
+        "transport": {
+            "service": "none"
+        }
+    },
+    "ldap": {
+        "enable": false
+    },
+    "devInstallPassword": "$2y$10$sty\/aVCB33v\/h5SMg9i7x.n5PIpR\/BONmgogXc37Le4rdtDvWz3Oy"
+}

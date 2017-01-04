@@ -1,0 +1,26 @@
+{
+    "list": {
+        "SendEmail": {
+            "name": "SendEmail",
+            "commandPath": "application.commands",
+            "command": "EmailCommand",
+            "action": "actionSend",
+            "schedule": "manual",
+            "period": "",
+            "instance": "single",
+            "singleInstanceMode": "wait",
+            "status": "ok"
+        },
+        "ImportData": {
+            "name": "ImportData",
+            "commandPath": "application.commands",
+            "command": "ImportCommand",
+            "action": "actionIndex",
+            "schedule": "manual",
+            "period": "",
+            "instance": "parallel",
+            "singleInstanceMode": "wait",
+            "status": "ok"
+        }
+    }
+}
